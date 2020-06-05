@@ -9,7 +9,7 @@ using std::cout;  using std :: cin;
 int main() 
 {
   auto num = 0;
-  cout<<<"Enter number: ";
+  cout<<"Enter number: ";
   cin>>num;
 
   int results = multiply_numbers(num);
