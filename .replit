@@ -1,2 +1,2 @@
 language = "cpp"
-run = "cd src/classwork/01assign; cmake .; make; /cw_01_exe;"
+run = "cd src/classwork/01assign; cmake .; make; ./cw_01_exe;"

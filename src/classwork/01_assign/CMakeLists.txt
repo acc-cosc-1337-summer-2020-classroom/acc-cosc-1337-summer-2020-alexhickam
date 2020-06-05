@@ -1,8 +1,7 @@
 ﻿cmake_minimum_required (VERSION 3.8)
-project(cw_01_library)
-
-add_library(cw_01_library "types.cpp" "types.h")
-add_executable(cw_01_exe "main.cpp" "types.cpp")
+add_executable(cw_01_tests "types_tests.cpp")
+target_link_libraries(cw_01_tests cw_01_library)
+add_test(NAME cw_01_tests COMMAND cw_01_tests -s)
 
 
 
